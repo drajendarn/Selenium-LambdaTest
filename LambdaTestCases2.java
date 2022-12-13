@@ -24,7 +24,7 @@ public class LambdaTestCases2
    String access_key = "id2nmuw7jtp0bGIBmBpEtBkcqOzdks8oE0mSJFblDOwwBEFSvX";
  
    String testURL = "https://www.lambdatest.com/selenium-playground";
-   String testURLTitle = "React • TodoMVC";
+   String testURLTitle = "React â€¢ TodoMVC";
  
    @BeforeTest
    @Parameters(value={"browser","version","platform", "resolution"})
@@ -130,10 +130,10 @@ public class LambdaTestCases2
 		// Submit with Valid input for all the fields
 		driver.findElement(By.xpath("//input[@id='name']")).sendKeys("Divya");
 		// WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(30));
-		driver.findElement(By.id("inputEmail4")).sendKeys("m1035029@mindtree.com");
+		driver.findElement(By.id("inputEmail4")).sendKeys("testemail@email.com");
 		driver.findElement(By.name("password")).sendKeys("123");
-		driver.findElement(By.name("company")).sendKeys("MINDTREE");
-		driver.findElement(By.name("website")).sendKeys("https://mindtree.com");
+		driver.findElement(By.name("company")).sendKeys("XXXX");
+		driver.findElement(By.name("website")).sendKeys("https://XXX.com");
 		WebElement countryDropDopwn = driver.findElement(By.name("country"));
 		Select s = new Select(countryDropDopwn);
 		s.selectByVisibleText("United States");
